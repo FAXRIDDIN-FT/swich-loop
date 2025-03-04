@@ -162,27 +162,27 @@
             console.log(massa * 0.01, "kg");
     }
 }
-{ // masala 8
+{ // masala 8  
 
-    let day = 30;
-    let month = 6;
-    let days;
+    let kun = 30;
+    let oy = 6;
+    let kunlar;
 
-    switch (month) {
+    switch (oy) {
         case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-            days = 31;
+            kunlar = 31;
             break;
         case 4: case 6: case 9: case 11:
-            days = 30;
+            kunlar = 30;
             break;
         case 2:
-            days = 28;
+            kunlar = 28;
             break;
         default:
             console.log("Noto'g'ri oy kiritildi");
     }
-    if (day > 0 && day <= days) {
-        console.log(`Kiritilgan oy to'g'ri ${day}-${month}`);
+    if (kun > 0 && kun <= kunlar) {
+        console.log(`Kiritilgan oy to'g'ri ${kun}-${oy}`);
     } else {
         console.log("Noto'g'ri oy kiritildi");
     }
